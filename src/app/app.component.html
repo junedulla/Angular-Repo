@@ -1,0 +1,16 @@
+<p>
+  <ngb-alert [dismissible]="false">
+    <strong>Message!</strong> Welcome to Zunu's First Web Application..!
+  </ngb-alert>
+</p>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a *ngFor="let route of routes" class="navbar-brand" [routerLink]="route.url">{{route.linkName}}</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+</nav>
+
+<router-outlet></router-outlet>
+

@@ -1,0 +1,18 @@
+<hr/>
+
+<h1 style="text-align:center">{{title}}</h1>
+
+<hr/>
+
+<div style="text-align:center">
+Movie Id : <input type="text" [(ngModel)]='movieId'>
+<button (click)="search()">Search</button>
+</div>
+
+<div style="text-align:center" *ngIf = "response">
+<hr/>
+<table>
+<tr><td>Movie Id</td><td> Description</td><td>Rating</td></tr>
+<tr><td>{{response.movieId}}</td><td>{{response.desc}}</td><td>{{response.rating}}</td></tr>
+</table>
+</div>

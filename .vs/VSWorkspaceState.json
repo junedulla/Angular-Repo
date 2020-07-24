@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\movie-info",
+    "\\src\\app\\page-not-found",
+    "\\src\\app\\rating-data"
+  ],
+  "SelectedNode": "\\src\\app\\rating-data\\rating-data.component.ts",
+  "PreviewInSolutionExplorer": false
+}
